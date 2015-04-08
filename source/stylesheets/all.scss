@@ -473,7 +473,7 @@
 // ==========================================================================
 
 body {
-  background: #e2e2e2;
+  background: #ECF0F1;
 }
 
 section {
@@ -481,36 +481,15 @@ section {
   height: 600px;
 }
 
-//.wax {
-//  background-image: url("../images/site-assets/pattern-tom-wahlin-wax.png");
-//  @include image-2x("../images/site-assets/pattern-tom-wahlin-wax@2x.png", 350px, 350px);
-//}
 //
-//.cdj {
-//  background-image: url("../images/site-assets/pattern-tom-wahlin-cdj.png");
-//  @include image-2x("../images/site-assets/pattern-tom-wahlin-cdj@2x.png", 350px, 350px);
-//}
-//
-//.disco-ball {
-//  background-image: url("../images/site-assets/pattern-tom-wahlin-disco-ball.png");
-//  @include image-2x("../images/site-assets/pattern-tom-wahlin-disco-ball@2x.png", 350px, 350px);
-//}
-
-
-
-
 @for $i from 1 through length($patternAssetNames) {
   
   $thisPatternAssetName: nth($patternAssetNames, $i);
   $thisPatternAssetURL: $thisPatternAssetName#{-pattern-tom-wahlin}; 
   
   .#{nth($patternAssetNames, $i)} {
-    background-image: "../image/site-assets/#{$thisPatternAssetURL}.png";
+    background-image: url("../images/site-assets/#{$thisPatternAssetURL}.png");
   }
-}
-
-.wax {
-  background: url("../images/site-assets/wax-pattern-tom-wahlin.png");
 }
 
 // ==========================================================================
