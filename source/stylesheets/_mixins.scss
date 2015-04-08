@@ -1,0 +1,68 @@
+// ==========================================================================
+//   2x images
+// ==========================================================================
+
+@mixin image-2x($image, $width, $height) {
+  @media (min--moz-device-pixel-ratio: 1.3),
+         (-o-min-device-pixel-ratio: 2.6/2),
+         (-webkit-min-device-pixel-ratio: 1.3),
+         (min-device-pixel-ratio: 1.3),
+         (min-resolution: 1.3dppx) {
+    /* on retina, use image that's scaled by 2 */
+    background-image: url($image);
+    background-size: $width $height;
+  }
+}
+
+// ==========================================================================
+//   Colors
+// ==========================================================================
+
+$darkest: rgba(62, 54, 52, 1);
+$darker: rgba(81, 74, 72, 1);
+$dark: rgba(125, 111, 102, 1);
+$middle: rgba(179, 157, 136, 1);
+$light: rgba(199, 177, 153, 1);
+$lighter: rgba(228, 212, 187, 1);
+$lightest: rgba(241, 233, 221, 1);
+
+// ==========================================================================
+//   Media Queries
+// ==========================================================================
+
+@mixin breakpoint($point) {
+  @if $point == small {
+    @media (min-width: 480px) { @content; }
+  }
+  @if $point == medium {
+    @media (min-width: 768px) { @content; }
+  }
+  @if $point == large {
+    @media (min-width: 960px) { @content; }
+  }
+}
+
+// ==========================================================================
+//   Transitions
+// ==========================================================================
+
+@mixin transition-all { @include transition-property(all); @include transition-duration(.3s); @include transition-timing-function(ease); }
+
+// ==========================================================================
+//   Temporary Fonts
+// ==========================================================================
+
+//Typography
+
+@mixin league-gothic {font-family: "league-gothic",sans-serif; font-style: normal; font-weight: 400; text-transform: uppercase;}
+@mixin tisa-regular {font-family: "ff-tisa-web-pro",serif; font-style: normal; font-weight: 400;}
+@mixin tisa-italic {font-family: "ff-tisa-web-pro",serif; font-style: italic; font-weight: 400;}
+@mixin tisa-bold {font-family: "ff-tisa-web-pro",serif; font-style: normal; font-weight: 700;}
+@mixin tisa-bold-italic {font-family: "ff-tisa-web-pro",serif; font-style: italic; font-weight: 700;}
+
+
+@mixin nexa-light { font-family: nexa_lightregular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@mixin nexa-book { font-family: nexa_bookregular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@mixin nexa-regular { font-family: nexa_regularregular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@mixin nexa-bold { font-family: nexa_boldregular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@mixin nexa-black { font-family: nexa_blackregular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
