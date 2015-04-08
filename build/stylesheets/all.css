@@ -1,0 +1,569 @@
+/* ==========================================================================
+   RESET! I'm addicted. It's a problem.
+   ========================================================================== */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 11, /Users/wahlin/dev/100daysofdisco/source/stylesheets/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 32, /Users/wahlin/dev/100daysofdisco/source/stylesheets/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 36, /Users/wahlin/dev/100daysofdisco/source/stylesheets/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 39, /Users/wahlin/dev/100daysofdisco/source/stylesheets/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 42, /Users/wahlin/dev/100daysofdisco/source/stylesheets/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 45, /Users/wahlin/dev/100daysofdisco/source/stylesheets/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 50, /Users/wahlin/dev/100daysofdisco/source/stylesheets/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 55, /Users/wahlin/dev/100daysofdisco/source/stylesheets/_reset.scss */
+header, section, footer {
+  display: block; }
+
+/* line 44, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+body {
+  -webkit-appearance: none;
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s;
+  background: #3e3634;
+  color: #f1e9dd;
+  font-family: "ff-tisa-web-pro",serif;
+  font-style: normal;
+  font-weight: 400; }
+
+/* line 53, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "league-gothic",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+/* line 58, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+p {
+  font-size: 16px;
+  line-height: 20px; }
+
+/* line 62, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+strong {
+  font-family: "ff-tisa-web-pro",serif;
+  font-style: normal;
+  font-weight: 700; }
+
+/* line 65, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+em {
+  font-family: "ff-tisa-web-pro",serif;
+  font-style: italic;
+  font-weight: 400; }
+
+/* line 69, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.wrap {
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 0 20px;
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    /* line 69, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .wrap {
+      padding: 0 40px; } }
+  @media (min-width: 960px) {
+    /* line 69, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .wrap {
+      padding: 0 80px; } }
+
+/* line 84, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+h3 {
+  font-size: 40px; }
+
+/* line 88, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+a {
+  color: #b39d88;
+  text-decoration: none; }
+
+/* line 93, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+a:hover {
+  text-decoration: underline; }
+
+/* line 97, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.cta {
+  cursor: pointer;
+  color: #3e3634;
+  font-size: 20px;
+  background: #b39d88;
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 12px;
+  text-align: center;
+  font-family: "league-gothic",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px; }
+
+/* line 112, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.cta:hover {
+  text-decoration: none;
+  background: #f1e9dd; }
+
+/* line 118, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+header {
+  padding-top: 40px;
+  background: #3e3634;
+  background: url(../images/hero.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  /* line 126, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  header nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 50px;
+    background: rgba(62, 54, 52, 0.9);
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+    line-height: 50px; }
+    /* line 136, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    header nav .logo {
+      position: absolute;
+      height: 78px;
+      padding-left: 78px;
+      line-height: 78px;
+      float: left;
+      top: -14px;
+      background: url(../images/bullshit-sheriff-logo.png) no-repeat left center;
+      overflow: visible; }
+      @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+        /* line 136, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+        header nav .logo {
+          /* on retina, use image that's scaled by 2 */
+          background-image: url("../images/bullshit-sheriff-logo@2x.png");
+          background-size: 68px 78px; } }
+      /* line 146, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      header nav .logo h1 {
+        font-size: 24px;
+        cursor: pointer; }
+    /* line 151, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    header nav ul {
+      float: right; }
+      /* line 153, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      header nav ul li {
+        float: right;
+        font-family: "league-gothic",sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 18px; }
+  /* line 160, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  header .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+    text-shadow: 0 2px 30px #3e3634;
+    text-align: left; }
+    @media (min-width: 480px) {
+      /* line 160, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      header .hero-content {
+        padding: 20px 0; } }
+    @media (min-width: 480px) {
+      /* line 160, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      header .hero-content {
+        padding: 40px 0; } }
+    /* line 168, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    header .hero-content h2 {
+      font-size: 60px;
+      text-align: center;
+      margin-bottom: 30px; }
+      @media (min-width: 480px) {
+        /* line 168, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+        header .hero-content h2 {
+          font-size: 80px; } }
+      @media (min-width: 768px) {
+        /* line 168, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+        header .hero-content h2 {
+          font-size: 120px; } }
+    /* line 175, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    header .hero-content p {
+      text-align: center;
+      margin-bottom: 20px; }
+      @media (min-width: 480px) {
+        /* line 175, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+        header .hero-content p {
+          font-size: 16px;
+          line-height: 24px; } }
+      @media (min-width: 768px) {
+        /* line 175, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+        header .hero-content p {
+          font-size: 22px;
+          line-height: 30px; } }
+    /* line 181, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    header .hero-content .social-share {
+      text-align: center; }
+      /* line 183, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      header .hero-content .social-share li {
+        display: inline-block;
+        padding: 0 10px; }
+
+/* line 191, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+section {
+  background-color: #514a48; }
+  /* line 193, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  section .explainer-bullshit {
+    overflow: hidden; }
+  /* line 196, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  section .module-wrap {
+    background-color: #3e3634;
+    margin: 0 auto; }
+    /* line 199, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    section .module-wrap .module-screen {
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      -moz-transition-property: all;
+      -o-transition-property: all;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -moz-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -moz-transition-timing-function: ease;
+      -o-transition-timing-function: ease;
+      -webkit-transition-timing-function: ease;
+      transition-timing-function: ease; }
+
+/* line 214, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+section:nth-child(odd) {
+  background-color: #3e3634; }
+  /* line 216, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  section:nth-child(odd) .module-wrap {
+    background-color: #514a48; }
+
+/* line 223, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.how-it-works {
+  padding-top: 20px; }
+  @media (min-width: 768px) {
+    /* line 223, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .how-it-works {
+      padding: 60px 0; } }
+  /* line 228, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .how-it-works h3 {
+    text-align: center;
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      /* line 228, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      .how-it-works h3 {
+        font-size: 60px;
+        margin-bottom: 40px; } }
+  /* line 237, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .how-it-works li:nth-child(1) .how-icon {
+    background: url(../images/icon-user.png) no-repeat center center; }
+    @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+      /* line 237, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      .how-it-works li:nth-child(1) .how-icon {
+        /* on retina, use image that's scaled by 2 */
+        background-image: url("../images/icon-user@2x.png");
+        background-size: 64px 64px; } }
+  /* line 243, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .how-it-works li:nth-child(2) .how-icon {
+    background: url(../images/icon-badge.png) no-repeat center center; }
+    @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+      /* line 243, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      .how-it-works li:nth-child(2) .how-icon {
+        /* on retina, use image that's scaled by 2 */
+        background-image: url("../images/icon-badge@2x.png");
+        background-size: 64px 64px; } }
+  /* line 249, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .how-it-works li:nth-child(3) .how-icon {
+    background: url(../images/icon-megaphone.png) no-repeat center center; }
+    @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+      /* line 249, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      .how-it-works li:nth-child(3) .how-icon {
+        /* on retina, use image that's scaled by 2 */
+        background-image: url("../images/icon-megaphone@2x.png");
+        background-size: 64px 64px; } }
+  /* line 254, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .how-it-works li {
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      /* line 254, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      .how-it-works li {
+        float: left;
+        width: 33.33%; } }
+    @media (min-width: 768px) {
+      /* line 262, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      .how-it-works li p {
+        padding: 0 16px; } }
+    @media (min-width: 960px) {
+      /* line 262, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      .how-it-works li p {
+        font-size: 20px;
+        line-height: 28px; } }
+    /* line 272, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .how-it-works li .how-icon {
+      margin: 0 auto 10px auto;
+      display: block;
+      height: 64px;
+      width: 64px; }
+
+/* line 281, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.phone-module-wrap {
+  height: 440px;
+  width: 280px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 40px 15px 0 15px; }
+  @media (min-width: 960px) {
+    /* line 281, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .phone-module-wrap {
+      height: 600px;
+      width: 382px; } }
+  /* line 291, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .phone-module-wrap .frame-instagram {
+    background-image: url(../images/screenshot-instagram.jpg); }
+  /* line 292, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .phone-module-wrap .frame-instagram-truth {
+    background-image: url(../images/screenshot-instagram-bs.jpg); }
+  /* line 293, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .phone-module-wrap .frame-facebook {
+    background-image: url(../images/screenshot-facebook.jpg); }
+  /* line 294, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .phone-module-wrap .frame-facebook-truth {
+    background-image: url(../images/screenshot-facebook-bs.jpg); }
+  /* line 295, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .phone-module-wrap .frame-linkedin {
+    background-image: url(../images/screenshot-linkedin.jpg); }
+  /* line 296, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .phone-module-wrap .frame-linkedin-truth {
+    background-image: url(../images/screenshot-linkedin-bs.jpg); }
+
+/* line 299, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.monitor-module-wrap {
+  height: 200px;
+  width: 300px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  float: left;
+  padding: 15px 15px 15px 10px; }
+  /* line 306, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .monitor-module-wrap .monitor-module {
+    background-image: url(../images/screenshot-facebook.jpg); }
+  /* line 309, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .monitor-module-wrap .frame-facebook-truth {
+    background-position: center bottom; }
+
+/* line 314, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.case-study {
+  padding: 20px 0 0 0; }
+  @media (min-width: 768px) {
+    /* line 314, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .case-study {
+      padding: 60px 0 0 0; } }
+  /* line 319, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .case-study .explainer-bullshit {
+    max-width: 400px; }
+    @media (min-width: 768px) {
+      /* line 319, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      .case-study .explainer-bullshit {
+        float: left; } }
+    @media (min-width: 960px) {
+      /* line 319, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      .case-study .explainer-bullshit {
+        padding-top: 60px; } }
+    /* line 327, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .case-study .explainer-bullshit .case-cracked {
+      display: block;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-size: 13px; }
+    /* line 333, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .case-study .explainer-bullshit h3 {
+      margin-bottom: 16px; }
+    /* line 336, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .case-study .explainer-bullshit p {
+      margin-bottom: 20px;
+      line-height: 24px; }
+    /* line 340, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .case-study .explainer-bullshit .cta {
+      margin-bottom: 40px; }
+  @media (min-width: 768px) {
+    /* line 344, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .case-study .phone-module-wrap {
+      float: right; } }
+
+@media (min-width: 768px) {
+  /* line 352, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .case-study-opposite .explainer-bullshit {
+    float: right; } }
+@media (min-width: 768px) {
+  /* line 357, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .case-study-opposite .phone-module-wrap {
+    float: left; } }
+
+/* line 366, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.action-items .col-left {
+  float: left;
+  width: 50%; }
+  /* line 369, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .action-items .col-left .col-wrap {
+    padding-right: 20px; }
+/* line 373, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.action-items .col-right {
+  float: right;
+  width: 50%; }
+  /* line 376, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .action-items .col-right .col-wrap {
+    padding-left: 20px; }
+
+/* line 383, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.hiring {
+  padding: 20px 0 20px;
+  background: url(../images/hiring.png) no-repeat left center; }
+  @media (min-width: 480px) {
+    /* line 383, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .hiring {
+      padding: 40px 0 40px; } }
+  @media (min-width: 960px) {
+    /* line 383, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .hiring {
+      padding: 80px 0 80px; } }
+  /* line 392, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .hiring .hiring-points {
+    max-width: 400px;
+    float: right;
+    text-shadow: 0 2px 30px #3e3634; }
+    /* line 396, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .hiring .hiring-points h3 {
+      margin-bottom: 12px; }
+    /* line 399, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .hiring .hiring-points p {
+      margin-bottom: 16px; }
+    /* line 402, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .hiring .hiring-points ul {
+      line-height: 20px;
+      padding-left: 20px;
+      padding-bottom: 4px; }
+      /* line 406, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+      .hiring .hiring-points ul li {
+        list-style-type: circle;
+        margin-bottom: 12px; }
+
+/* line 414, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+.sign-up {
+  padding: 20px 0; }
+  @media (min-width: 480px) {
+    /* line 414, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .sign-up {
+      padding: 40px 0 40px; } }
+  @media (min-width: 960px) {
+    /* line 414, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+    .sign-up {
+      padding: 80px 0 80px; } }
+  /* line 422, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .sign-up h3 {
+    margin-bottom: 12px; }
+  /* line 425, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .sign-up p {
+    margin-bottom: 18px; }
+  /* line 429, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .sign-up form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #b39d88; }
+  /* line 434, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .sign-up form input {
+    color: #514a48;
+    border-radius: 0;
+    background: #f1e9dd;
+    border: none;
+    display: block;
+    width: 66%;
+    height: 44px;
+    margin-bottom: 10px;
+    padding: 0;
+    float: left;
+    padding: 0 2%;
+    font-family: "ff-tisa-web-pro",serif;
+    font-style: normal;
+    font-weight: 400; }
+  /* line 448, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  .sign-up form input[type="submit"] {
+    padding: 0;
+    background: #b39d88;
+    font-size: 20px;
+    color: #3e3634;
+    display: inline-block;
+    width: auto;
+    float: right;
+    width: 30%;
+    font-family: "league-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase; }
+
+/* line 462, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+footer {
+  padding: 20px 0; }
+  /* line 464, /Users/wahlin/dev/100daysofdisco/source/stylesheets/all.scss */
+  footer p {
+    font-size: 14px; }

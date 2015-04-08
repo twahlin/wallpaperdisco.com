@@ -18,9 +18,9 @@
     <meta property="og:image" content="http://bullshitsheriff.com/images/bullshit-sheriff-facebook-share.jpg" />
     
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title>Desktop Disco</title>
     
-    <%= stylesheet_link_tag "normalize", "all" %>
+    <link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/all.css" rel="stylesheet" type="text/css" />
 
   </head>
   
@@ -28,7 +28,7 @@
   NERD ALERT! If you want to download all these files as repeatable PNG tiles, go to this link: www.blah.com
   Nerd ascii art -->
   
-  <body class="<%= page_classes %>">
+  <body class="index">
   <script src="//use.typekit.net/sia1rpd.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
     <!-- Facebook SDK -->
@@ -54,9 +54,30 @@
 		<!-- end preload images -->
     
     <div class="page-wrap">
-      <%= partial "masthead" %>
-      <%= yield %>
-      <%= partial "footer" %>
+      <header>
+  <div class="wrap">
+    Sup header
+  </div>
+</header>
+      <section>
+  <div class="wrap">
+    <h3>Wax</h3>
+    <p>Nothing beats the superior sound of vinyl (as long as there’s a sound system to support it).</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h3>Pioneer CDJ</h3>
+    <p>The club standard. If you’ve played out or been up close to the booth, chances are you've seen one of these in action.</p>
+  </div>
+</section>
+
+      <footer>
+  <div class="wrap">
+    Sup footer
+  </div>
+</footer>
     </div> 
     
 	<script>
@@ -68,6 +89,6 @@
 	  ga('send', 'pageview');
 	</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
-    <%= javascript_include_tag  "all" %>
+    <script src="/javascripts/all.js" type="text/javascript"></script>
   </body>
 </html>

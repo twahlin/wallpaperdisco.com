@@ -466,5 +466,14 @@ footer {
 	}
 }
 
+/* ==========================================================================
+   Begin Disco CSS
+   ========================================================================== */
+
+
+.four-oh-four {
+  background: url(images/site-assets/four-oh-four.png);
+//  @include image-2x("../images/build/four-oh-four@2x.png", 350px, 350px);
+}
 
 
