@@ -189,7 +189,9 @@ header {
 }
 
 section {
-	background-color: $darker;
+  	background-color: $darker;
+    background-image: url(../images/site-assets/four-oh-four.png) no-repeat center center;
+    background: red;
   .explainer-bullshit {
 	  overflow: hidden;
   }
