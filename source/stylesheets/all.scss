@@ -481,7 +481,7 @@ section {
   height: 600px;
 }
 
-//
+// pattern names: dynamic section classes and background images
 @for $i from 1 through length($patternAssetNames) {
   
   $thisPatternAssetName: nth($patternAssetNames, $i);
