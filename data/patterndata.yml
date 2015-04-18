@@ -1,11 +1,39 @@
 ---
 patterns:
   - name: Wax
-    description: lorem ipsum dolor.
+    description: Nothing beats the superior sound of vinyl (as long as there’s a sound system to support it).
     imageSlug: wax
-  - name: CDJ
-    description: lorem ipsum dolor.
+  - name: Pioneer CDJ
+    description: The club standard. If you’ve played out or been up close to the booth, chances are you’ve seen one of these in action.
     imageSlug: cdj
   - name: Disco Ball
-    description: lorem ipsum dolor.
+    description: The disco ball is the reason we all show up in the first place, right? Reach up and touch it for good luck.
     imageSlug: disco-ball
+  - name: Beer
+    description: Another beer? Why not. The lighter the better—keep those feet moving on the dance floor.
+    imageSlug: beer
+  - name: House Music
+    description: Not everyone understands house music. It's a spiritual thing, a body thing, a soul thing.
+    imageSlug: house-music
+  - name: Technics MK2
+    description: Hope you’re headed out to listen to some of that sweet sweet vinyl pumping from a pair of Technics tonight.
+    imageSlug: technics-mk2-vinyl
+  - name: Techno
+    description: Thank you for inventing this, Detroit (Derrick May, Jaun Atkins & Kevin Saunderson).
+    imageSlug: techno
+  - name: EQ Knob
+    description: Grab hold and crank one of these suckers—just enough to keep the sound out of the red.
+    imageSlug: eq-knob
+  - name: Afro Pick
+    description: Pick comb to the rescue—keep that 'fro out of your face when you’re busting a groove. 
+    imageSlug: afro-pick-comb
+  - name: Fader
+    description: It’s all about the blend & levels.
+    imageSlug: mixing-fader
+  - name: Stunna Shades
+    description: BRO CAN YOU NOT. The guy in stunna shades (in a dark nightclub) continues to pump his fist into everyone’s groove zone. He takes small breaks only to swig his vodka redbull while recording the experience on his phone (in portrait orientation).
+    imageSlug: stunna-shades
+  - name: Funktion-One
+    description: One of the greatest sound systems out there. If you’ve been to Output in Brooklyn, you’ve heard how one of these sounds. 
+    imageSlug: speaker-funktion-one            
+    

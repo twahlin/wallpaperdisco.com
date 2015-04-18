@@ -481,18 +481,6 @@ section {
   height: 600px;
 }
 
-// pattern names: dynamic section classes and background images
-//@for $i from 1 through length($patternAssetNames) {
-//
-//  $thisPatternAssetName: nth($patternAssetNames, $i);
-//  $thisPatternAssetURL: $thisPatternAssetName#{-wallpaper-disco-tom-wahlin};
-//
-//  .#{nth($patternAssetNames, $i)} {
-//    background-image: url("../images/pattern-tiles/#{$thisPatternAssetURL}.png");
-//    @include image-2x("../images/pattern-tiles/#{$thisPatternAssetURL}@2x.png", 350px, 350px);
-//  }
-//}
-
 // ==========================================================================
 //   404 page
 // ==========================================================================
