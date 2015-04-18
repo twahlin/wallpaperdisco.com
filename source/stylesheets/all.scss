@@ -474,11 +474,77 @@
 
 body {
   background: #ECF0F1;
+  @include tisa-regular;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include futura-medium;
+}
+
+a {
+  text-transform: uppercase;
+  color: #666;
+  @include futura-medium;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.wrap {
+  padding: 20px 20px;
+}
+
+header {
+  height: 80px;
+  line-height: 80px;
+  h1 {
+    float: left;
+    width: 500px;
+  }
+  h2 {
+    float: left;
+  }
+  ul {
+    float: right;
+    li {
+      float: right;
+    }
+  }
 }
 
 section {
   background-attachment: fixed;
   height: 600px;
+}
+
+.pattern-info {
+  background: transparentize(#fff, .2);
+  padding: 20px;
+  position: relative;
+  width: 300px;
+  h3 {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+  ul {
+    li {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+  }
+  .button-pinterest {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
 }
 
 // ==========================================================================

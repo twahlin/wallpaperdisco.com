@@ -1,0 +1,6 @@
+Instagram: 1280x1280 @50%
+Dribbble: 1600x1200 @50%
+Pinterest: 1470x2900
+iPhone 6: 1242x2208
+Desktop: 2880x1800
+Android: 1080x1920

@@ -58,11 +58,14 @@ $patternAssetNames: wax, cdj, disco-ball;
 
 //Typography
 
-@mixin league-gothic {font-family: "league-gothic",sans-serif; font-style: normal; font-weight: 400; text-transform: uppercase;}
+@mixin futura-book {font-family: "futura-pt",sans-serif; font-style: normal; font-weight: 400;}
+@mixin futura-medium {font-family: "futura-pt",sans-serif; font-style: normal; font-weight: 500;}
 @mixin tisa-regular {font-family: "ff-tisa-web-pro",serif; font-style: normal; font-weight: 400;}
-@mixin tisa-italic {font-family: "ff-tisa-web-pro",serif; font-style: italic; font-weight: 400;}
 @mixin tisa-bold {font-family: "ff-tisa-web-pro",serif; font-style: normal; font-weight: 700;}
-@mixin tisa-bold-italic {font-family: "ff-tisa-web-pro",serif; font-style: italic; font-weight: 700;}
+
+
+//@mixin tisa-italic {font-family: "ff-tisa-web-pro",serif; font-style: italic; font-weight: 400;}
+//@mixin tisa-bold-italic {font-family: "ff-tisa-web-pro",serif; font-style: italic; font-weight: 700;}
 
 
 @mixin nexa-light { font-family: nexa_lightregular, "Helvetica Neue", Helvetica, Arial, sans-serif;}
