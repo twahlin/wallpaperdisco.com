@@ -485,10 +485,10 @@ section {
 @for $i from 1 through length($patternAssetNames) {
   
   $thisPatternAssetName: nth($patternAssetNames, $i);
-  $thisPatternAssetURL: $thisPatternAssetName#{-pattern-tom-wahlin}; 
+  $thisPatternAssetURL: $thisPatternAssetName#{-wallpaper-disco-tom-wahlin}; 
   
   .#{nth($patternAssetNames, $i)} {
-    background-image: url("../images/site-assets/#{$thisPatternAssetURL}.png");
+    background-image: url("../images/pattern-tiles/#{$thisPatternAssetURL}.png");
   }
 }
 
