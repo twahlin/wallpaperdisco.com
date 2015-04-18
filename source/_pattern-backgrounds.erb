@@ -1,0 +1,22 @@
+<style type="text/css">
+<% data.patterndata.patterns.each do |p| %>
+  .<%= p['name'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')%>{
+    background-image: url("images/pattern-tiles/<%= p['imageSlug'] %>-wallpaper-disco-tom-wahlin.png");
+  }
+<% end %>
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  <% data.patterndata.patterns.each do |p| %>
+    .<%= p['name'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')%>{
+      background-image: url("images/pattern-tiles/<%= p['imageSlug'] %>-wallpaper-disco-tom-wahlin@2x.png");
+      background-size: 350px 350px;
+    }
+  <% end %>
+}
+</style>
