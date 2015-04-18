@@ -6,7 +6,7 @@ title: Wallpaper Disco
 
 <% data.patterndata.patterns.each do |p| %>
 <%nameSlug = p['name'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '') %>
-<section class="<%= nameSlug%>" id="<%= nameSlug%>">
+<section class="pattern-section <%= nameSlug%>" id="<%= nameSlug%>">
   <div class="wrap">
     <div class="pattern-info">
     <h3><%= p['name']%></h3>

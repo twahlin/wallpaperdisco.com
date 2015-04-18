@@ -494,23 +494,53 @@ a:hover {
 }
 
 .wrap {
-  padding: 20px 20px;
+  padding: 0 20px;
 }
 
 header {
-  height: 80px;
-  line-height: 80px;
-  h1 {
+  background: #555;
+  padding: 10px;
+  height: 64px;
+  .logo {
+    background: url("../images/site-assets/logo.png") left center no-repeat;
+    @include image-2x("../images/site-assets/logo@2x.png", 64px, 64px);
+    height: 64px;
+    padding: 0 0 0 74px;
+    width: 300px;
     float: left;
-    width: 500px;
+    h1 {
+      padding-top: 8px;
+      @include futura-book;
+      font-size: 30px;
+      a {
+        color: #fff;
+      }
+      a:hover {
+        border: none;
+      }
+    }
+    p {
+      color: #fff;
+      font-size: 13px;
+      padding-left: 2px;
+      a {
+        color: #fff;
+        text-transform: capitalize;
+      }
+      a:hover {
+        border-bottom: 1px solid #fff;
+      }
+    }
   }
   h2 {
     float: left;
   }
   ul {
     float: right;
+    padding-top: 22px;
     li {
       float: right;
+      padding-right: 16px;
     }
   }
 }
@@ -520,6 +550,8 @@ section {
   height: 600px;
 }
 
+.pattern-section {
+  padding: 20px 0;
 .pattern-info {
   background: transparentize(#fff, .2);
   padding: 20px;
@@ -546,13 +578,14 @@ section {
     right: 20px;
   }
 }
+}
 
 // ==========================================================================
 //   404 page
 // ==========================================================================
 
 .four-oh-four {
-  background: url("../images/site-assets/pattern-tom-wahlin-four-oh-four.png");
-  @include image-2x("../images/site-assets/pattern-tom-wahlin-four-oh-four@2x.png", 350px, 350px);
+  background: url("../images/site-assets/four-oh-four-pattern-tom-wahlin.png");
+  @include image-2x("../images/site-assets/four-oh-four-pattern-tom-wahlin@2x.png", 350px, 350px);
 }
 
