@@ -2,10 +2,10 @@
 patterns:
   - name: Wax
     description: lorem ipsum dolor.
-    imageSlug: wax-pattern-tom-wahlin.png
+    imageSlug: wax-pattern-tom-wahlin
   - name: CDJ
     description: lorem ipsum dolor.
-    imageSlug: cdj-pattern-tom-wahlin.png
+    imageSlug: cdj-pattern-tom-wahlin
   - name: Disco Ball
     description: lorem ipsum dolor.
-    imageSlug: disco-ball-pattern-tom-wahlin.png
+    imageSlug: disco-ball-pattern-tom-wahlin
