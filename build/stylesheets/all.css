@@ -59,20 +59,20 @@ table {
 header, section, footer {
   display: block; }
 
-/* line 475, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+/* line 11, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
 body {
   background: #ECF0F1;
   font-family: "ff-tisa-web-pro",serif;
   font-style: normal;
   font-weight: 400; }
 
-/* line 480, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+/* line 16, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "futura-pt",sans-serif;
   font-style: normal;
   font-weight: 500; }
 
-/* line 484, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+/* line 20, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
 a {
   text-transform: uppercase;
   color: #666;
@@ -81,109 +81,133 @@ a {
   font-weight: 500;
   text-decoration: none; }
 
-/* line 491, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+/* line 27, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
 a:hover {
   color: #000;
   border-bottom: 1px solid #000; }
 
-/* line 496, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+/* line 32, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
 .wrap {
   padding: 0 20px; }
 
-/* line 500, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+/* line 36, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
 header {
   background: #333;
-  padding: 10px;
-  height: 64px; }
-  /* line 504, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+  padding: 20px 0; }
+  @media (min-width: 768px) {
+    /* line 36, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+    header {
+      height: 64px; } }
+  /* line 42, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
   header .logo {
     background: url("../images/site-assets/logo.png") left center no-repeat;
     height: 64px;
     padding: 0 0 0 74px;
-    width: 300px;
-    float: left; }
+    margin-bottom: 10px; }
     @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-      /* line 504, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+      /* line 42, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
       header .logo {
         /* on retina, use image that's scaled by 2 */
         background-image: url("../images/site-assets/logo@2x.png");
         background-size: 64px 64px; } }
-    /* line 511, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+    @media (min-width: 768px) {
+      /* line 42, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+      header .logo {
+        float: left;
+        margin-bottom: 0;
+        width: 300px; } }
+    /* line 53, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
     header .logo h1 {
       padding-top: 8px;
       font-family: "futura-pt",sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 30px; }
-      /* line 515, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+      /* line 57, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
       header .logo h1 a {
         color: #fff; }
-      /* line 518, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+      /* line 60, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
       header .logo h1 a:hover {
         border: none; }
-    /* line 522, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+    /* line 64, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
     header .logo p {
       color: #fff;
-      font-size: 13px;
+      font-size: 11px;
       padding-left: 2px; }
-      /* line 526, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+      @media (min-width: 768px) {
+        /* line 64, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+        header .logo p {
+          font-size: 13px; } }
+      /* line 71, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
       header .logo p a {
         color: #fff;
         text-transform: capitalize; }
-      /* line 530, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+      /* line 75, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
       header .logo p a:hover {
         border-bottom: 1px solid #fff; }
-  /* line 535, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+  /* line 80, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
   header h2 {
     float: left; }
-  /* line 538, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+  /* line 83, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
   header ul {
-    float: right;
-    padding-top: 22px; }
-    /* line 541, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+    padding: 22px 0;
+    overflow: hidden; }
+    @media (min-width: 768px) {
+      /* line 83, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+      header ul {
+        float: right; } }
+    /* line 89, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
     header ul li {
-      float: right;
-      padding-right: 16px; }
+      float: left;
+      margin-right: 16px; }
+      @media (min-width: 768px) {
+        /* line 89, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+        header ul li {
+          float: right; } }
+    /* line 97, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+    header ul .share-twitter {
+      overflow: hidden;
+      width: 76px; }
 
-/* line 548, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+/* line 110, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
 section {
   background-attachment: fixed;
   height: 600px; }
 
-/* line 553, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+/* line 115, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
 .pattern-section {
   position: relative;
   padding: 20px 0; }
-  /* line 556, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+  /* line 118, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
   .pattern-section .pattern-info {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px 20px 16px 20px;
     position: relative;
     width: 300px; }
-    /* line 561, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+    /* line 123, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
     .pattern-section .pattern-info h3 {
       font-size: 36px;
       margin-bottom: 12px; }
-    /* line 565, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+    /* line 127, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
     .pattern-section .pattern-info p {
-      font-size: 15px;
-      line-height: 18px;
+      font-size: 16px;
+      line-height: 20px;
       margin-bottom: 20px; }
-    /* line 571, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+    /* line 133, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
     .pattern-section .pattern-info ul li {
-      font-size: 14px;
-      margin-bottom: 6px; }
-  /* line 577, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+      font-size: 15px;
+      margin-bottom: 14px; }
+  /* line 139, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
   .pattern-section .button-pinterest {
     position: absolute;
     bottom: 20px;
     right: 20px; }
 
-/* line 588, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+/* line 150, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
 .four-oh-four {
   background: url("../images/site-assets/four-oh-four-pattern-tom-wahlin.png"); }
   @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-    /* line 588, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
+    /* line 150, /Users/wahlin/dev/wallpaperdisco.com/source/stylesheets/all.scss */
     .four-oh-four {
       /* on retina, use image that's scaled by 2 */
       background-image: url("../images/site-assets/four-oh-four-pattern-tom-wahlin@2x.png");
