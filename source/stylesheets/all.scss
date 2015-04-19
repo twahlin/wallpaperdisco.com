@@ -498,7 +498,7 @@ a:hover {
 }
 
 header {
-  background: #555;
+  background: #333;
   padding: 10px;
   height: 64px;
   .logo {
@@ -551,6 +551,7 @@ section {
 }
 
 .pattern-section {
+  position: relative;
   padding: 20px 0;
 .pattern-info {
   background: transparentize(#fff, .2);
@@ -572,11 +573,11 @@ section {
       margin-bottom: 6px;
     }
   }
-  .button-pinterest {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-  }
+}
+.button-pinterest {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 }
 
