@@ -35,5 +35,29 @@ patterns:
     imageSlug: stunna-shades
   - name: Funktion-One
     description: One of the greatest sound systems out there. If you’ve been to Output in Brooklyn, you’ve heard how one of these sounds. 
-    imageSlug: speaker-funktion-one            
+    imageSlug: speaker-funktion-one   
+  - name: KRK Monitors
+    description: Kick back and tweak your mix.
+    imageSlug: speaker-monitor
+  - name: Tequila Shot
+    description: 1 Salt your hand. 2 Lick it off. 3 Down the shot. 4 Suck a lime slice. 5 Back on the dance floor in one minute flat.
+    imageSlug: tequila-shot
+  - name: Waveform
+    description: 
+    imageSlug: waveform
+  - name: Acid House
+    description: 
+    imageSlug: acid-house
+  - name: Ableton Push
+    description: 
+    imageSlug: ableton-push
+  - name: Dub
+    description: 
+    imageSlug: dub
+  - name: Monome
+    description: 
+    imageSlug: monome
+  - name: Platform Shoes
+    description:
+    imageSlug: platform-shoe              
     
