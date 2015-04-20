@@ -51,9 +51,9 @@ header {
       width: 300px;
     }
     h1 {
-      padding-top: 8px;
+      padding-top: 7px;
       @include futura-book;
-      font-size: 30px;
+      font-size: 36px;
       a {
         color: #fff;
       }
@@ -107,7 +107,7 @@ header {
   }
 }
 
-section {
+.pattern-section {
   background-attachment: fixed;
   background-position: center; 
   height: 600px;
@@ -120,7 +120,7 @@ section {
     background: transparentize(#fff, .05);
     padding: 20px 20px 16px 20px;
     position: relative;
-    width: 300px;
+    max-width: 300px;
     h3 {
       font-size: 36px;
       margin-bottom: 12px;
