@@ -40,49 +40,73 @@ a:hover {
 }
 
 header {
-background: $midnight-blue;
-color: $clouds;
-text-align: center;
-padding: 20px 0;
-.home-link {
-color: $clouds;
-.wallpaper-disco-logo {
-background-color: $clouds;
-background-image: url("../images/site-assets/disco-ball-texture.png");
-@include image-2x("../images/site-assets/disco-ball-texture@2x.png", 12px, 12px);
-background-position: 1px 1px;
-height: 64px;
-margin: 0 auto 10px auto;
-width: 64px;
-@include border-radius(32px);
-}
-h1 {
-text-align: center;
-font-size: 36px;
-}
-p {
-text-transform: none;
-display: inline;
-}
-}
-.home-link:hover {
-.wallpaper-disco-logo {         
-@include animation(disco-ball-animate .2s linear infinite);
-} 
-}
-h2 {
-display: inline;
-a {
-color: $clouds;
-text-transform: none;
-@include transition-all;
-@include futura-book;
-}
-a:hover {
-border-bottom: 1px solid $clouds;
-color: $clouds;
-}
-}
+  background: $midnight-blue;
+  color: $clouds;
+  text-align: center;
+  padding: 20px 0;
+  overflow: hidden;
+  .home-link {
+    color: $clouds;
+    .wallpaper-disco-logo {
+      background-color: $clouds;
+      background-image: url("../images/site-assets/disco-ball-texture.png");
+      @include image-2x("../images/site-assets/disco-ball-texture@2x.png", 12px, 12px);
+      background-position: 1px 1px;
+      height: 64px;
+      margin: 0 auto 10px auto;
+      width: 64px;
+      @include border-radius(32px);
+        @include breakpoint(medium) {
+          float: left;
+          margin: 0 10px 0 0;
+        }
+    }
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      @include breakpoint(medium) {
+        padding-top: 3px;
+        text-align: left;
+
+      }
+    }
+    p {
+      text-transform: none;
+      display: inline;
+      @include breakpoint(medium) {
+              display: block;
+              text-align: left;
+              float: left;
+            padding-left: 4px;
+            font-size: 18px;
+            letter-spacing: 1px;
+            @include futura-book;    
+      }
+    }
+  }
+  .home-link:hover {
+    .wallpaper-disco-logo {      
+      @include animation(disco-ball-animate .2s linear infinite);
+    } 
+  }
+  h2 {
+    display: inline;
+    @include breakpoint(medium) {
+            display: block;
+            text-align: right;
+            float: right;
+    }
+    a {
+      color: $clouds;
+      text-transform: none;
+      @include transition-all;
+      @include futura-book;
+    }
+    a:hover {
+      border-bottom: 1px solid $clouds;
+      color: $clouds;
+    }
+  }
 }
 
 
