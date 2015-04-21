@@ -42,8 +42,8 @@ patterns:
   - name: Tequila Shot
     description: 1 Salt your hand. 2 Lick it off. 3 Down the shot. 4 Suck a lime slice. 5 Back on the dance floor in one minute flat.
     imageSlug: tequila-shot
-  - name: Waveform
-    description: 
+  - name: Waveforms
+    description: I’m not talking about surfing. These little guys travel through the air to your ears and make you wanna dance.
     imageSlug: waveform
   - name: Acid House
     description: 
