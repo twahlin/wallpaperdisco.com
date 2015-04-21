@@ -34,54 +34,59 @@ a:hover {
   padding: 0 20px;
 }
 
-header {
-  background: $midnight-blue;
-  padding: 20px 0;
-  @include breakpoint(medium) {
-    height: 64px;
-  }
-  .logo {
-    background: url("../images/site-assets/logo.png") left center no-repeat;
-    @include image-2x("../images/site-assets/logo@2x.png", 64px, 64px);
-    height: 64px;
-    padding: 0 0 0 74px;
-    margin-bottom: 10px;
-    @include breakpoint(medium) {
-      float: left;
-      margin-bottom: 0;
-      width: 300px;
-    }
-    h1 {
-      padding-top: 7px;
-      @include futura-book;
-      font-size: 36px;
-      a {
-        color: $clouds;
-      }
-      a:hover {
-        border: none;
-      }
-    }
-    p {
-      color: $clouds;
-      font-size: 11px;
-      padding-left: 2px;
-      @include breakpoint(medium) {
-        font-size: 13px; 
-      }
-      a {
-        color: $clouds;
-        text-transform: capitalize;
-      }
-      a:hover {
-        border-bottom: 1px solid $clouds;
-      }
-    }
-  }
-  h2 {
-    float: left;
-  }
+@include keyframes(disco-ball-animate) {
+  from {background-position: 1px 1px;}
+  to {background-position: -11px 1px;} // The width of the sprite.
 }
+
+header {
+background: $midnight-blue;
+color: $clouds;
+text-align: center;
+padding: 20px 0;
+.home-link {
+color: $clouds;
+.wallpaper-disco-logo {
+background-color: $clouds;
+background-image: url("../images/site-assets/disco-ball-texture.png");
+@include image-2x("../images/site-assets/disco-ball-texture@2x.png", 12px, 12px);
+background-position: 1px 1px;
+height: 64px;
+margin: 0 auto 10px auto;
+width: 64px;
+@include border-radius(32px);
+}
+h1 {
+text-align: center;
+font-size: 36px;
+}
+p {
+text-transform: none;
+display: inline;
+}
+}
+.home-link:hover {
+.wallpaper-disco-logo {         
+@include animation(disco-ball-animate .2s linear infinite);
+} 
+}
+h2 {
+display: inline;
+a {
+color: $clouds;
+text-transform: none;
+@include transition-all;
+@include futura-book;
+}
+a:hover {
+border-bottom: 1px solid $clouds;
+color: $clouds;
+}
+}
+}
+
+
+
 
 .pattern-section {
   background-attachment: fixed;
