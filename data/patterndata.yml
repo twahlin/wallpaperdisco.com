@@ -46,13 +46,13 @@ patterns:
     description: I’m not talking about surfing. These little guys travel through the air to your ears and make you wanna dance.
     imageSlug: waveform
   - name: Acid House
-    description: 
+    description: When the sound drips down: Minimalist production aesthetic combined house music's ubiquitous programmed 4/4 beat with the electronic ‘squelch' sound produced by the Roland TB-303.
     imageSlug: acid-house
   - name: Ableton Push
-    description: 
+    description: This thing can produce just about any sound out there. From drums to synths - you can probably create it with a Push.
     imageSlug: ableton-push
   - name: Dub
-    description: 
+    description: This sub-genre of reggae is the perfect thing to chill with (not to be confused with dubstep).
     imageSlug: dub
   - name: Monome
     description: 
