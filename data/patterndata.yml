@@ -58,6 +58,6 @@ patterns:
     description: 
     imageSlug: monome
   - name: Platform Shoes
-    description:
+    description: Put on those platform shoes because we're going to the disco.
     imageSlug: platform-shoe              
     
