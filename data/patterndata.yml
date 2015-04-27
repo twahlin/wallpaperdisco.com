@@ -59,5 +59,35 @@ patterns:
     imageSlug: monome
   - name: Platform Shoes
     description: Put on those platform shoes because we're going to the disco.
-    imageSlug: platform-shoe              
+    imageSlug: platform-shoe
+  - name: Headphones
+    description: Just grab one phone—that’ll be enough to beat-match and bring the next track into the mix.
+    imageSlug: headphones 
+  - name: XLR Cable
+    description: 
+    imageSlug: xlr-cable    
+  - name: Eighth Note
+    description: 
+    imageSlug: eighth-note    
+  - name: CD
+    description: 
+    imageSlug: cd   
+  - name: Fog Machine
+    description:
+    imageSlug: fog-machine  
+  - name: Air Horn
+    description: 
+    imageSlug: air-horn
+  - name: Trill
+    description: 
+    imageSlug: trill   
+  - name: Master Levels
+    description: 
+    imageSlug: master-levels   
+  - name: Acoustic Foam
+    description:
+    imageSlug: acoustic-foam    
+  - name: Glowstick
+    description:
+    imageSlug: glowstick                                                       
     
