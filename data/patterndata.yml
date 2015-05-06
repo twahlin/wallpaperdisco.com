@@ -62,32 +62,32 @@ patterns:
     imageSlug: platform-shoe
   - name: Headphones
     description: Just grab one phone—that’ll be enough to beat-match and bring the next track into the mix.
-    imageSlug: headphones 
+    imageSlug: headphones
   - name: XLR Cable
-    description: 
+    description: You'll be hosting a silent disco if you forget these.
     imageSlug: xlr-cable    
   - name: Eighth Note
-    description: 
+    description: Music visually broken down to it’s most basic format.
     imageSlug: eighth-note    
   - name: CD
-    description: 
+    description: A relic and necessity if you’re playing on CDJs without USB.
     imageSlug: cd   
   - name: Fog Machine
-    description:
+    description: Can’t see? Doesn’t really matter. All you need to do is listen to the music and dance.
     imageSlug: fog-machine  
   - name: Air Horn
-    description: 
+    description: PEW PEW PEW PEW PEW PEWWWWWWWW. REEEEMMMIIIXXXXXX! (Ugh, please no).
     imageSlug: air-horn
   - name: Trill
-    description: 
+    description: True & Real @ 100 
     imageSlug: trill   
   - name: Master Levels
-    description: 
+    description: Might want to turn that gain knob down a little bit sparky.
     imageSlug: master-levels   
   - name: Acoustic Foam
-    description:
+    description: “Turn that shit down!” yelled the neighbors next to the party that didn’t have this stuff on the walls.
     imageSlug: acoustic-foam    
   - name: Glowstick
-    description:
+    description: Kandy Kids, it’s all about Peace, Love, Unity, and Respect, right? PLUR.
     imageSlug: glowstick                                                       
     
