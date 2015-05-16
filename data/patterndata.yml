@@ -89,5 +89,39 @@ patterns:
     imageSlug: acoustic-foam    
   - name: Glowstick
     description: Kandy Kids, it’s all about Peace, Love, Unity, and Respect, right? PLUR.
-    imageSlug: glowstick                                                       
+    imageSlug: glowstick 
+  - name: Bloodshot Eyes
+    description: How long have you been out? Aren’t you getting tired? Does it even matter anymore?
+    imageSlug: bloodshot-eyes
+  - name: Microphone
+    description: Emcees unite! Grab one of these guys and support your DJ.
+    imageSlug: microphone
+  - name: DJM-800
+    description: Another club standard with 4 channels of auditory goodness. The sliver version because that’s how we roll.
+    imageSlug: djm-800
+  - name: Pills
+    description: Don’t do them kids.
+    imageSlug: pills 
+  - name: Roland 808
+    description: One of the first programmable drum machines—the sounds are still used today. Still fresh.
+    imageSlug: roland-808
+  - name: Velvet Ropes
+    description: Mystical barriers that only people with money and good looks can get through.
+    imageSlug: vip-rope
+  - name: Stage
+    description: Look at this little guy, playing music just for you.
+    imageSlug: mini-dj
+  - name: Cigarette
+    description: Puff puff - take a little break from the dance floor and go mingle with the smokey folks outside.
+    imageSlug: cigarette
+  - name: Play Button
+    description: Puff puff - take a little break from the dance floor and go mingle with the smokey folks outside.
+    imageSlug: play-button
+  - name: Black Light
+    description: Puff puff - take a little break from the dance floor and go mingle with the smokey folks outside.
+    imageSlug: black-light
+  - name: Alka Seltzer
+    description: Puff puff - take a little break from the dance floor and go mingle with the smokey folks outside.
+    imageSlug: alka-seltzer
+                                                          
     

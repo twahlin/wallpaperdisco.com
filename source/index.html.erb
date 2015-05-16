@@ -4,7 +4,7 @@ title: Wallpaper Disco
 
 <!-- Description: Wallpaper Disco was created and curated by Tomm Wahlin, and was a part of the 100 days of making project. -->
 
-<% data.patterndata.patterns.each_slice(5) do |sections| %> <!-- Slicing places share row every x pattern tiles -->
+<% data.patterndata.patterns.each_slice(10) do |sections| %> <!-- Slicing places share row every x pattern tiles -->
 <div class="gallery">
   <% sections.each do |pattern| %>
   <%nameSlug = pattern['name'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '') %>
