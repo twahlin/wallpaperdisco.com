@@ -115,13 +115,13 @@ patterns:
     description: Puff puff - take a little break from the dance floor and go mingle with the smokey folks outside.
     imageSlug: cigarette
   - name: Play Button
-    description: Puff puff - take a little break from the dance floor and go mingle with the smokey folks outside.
+    description: This is where it all begins. Tap this and get those decks scrubbing.
     imageSlug: play-button
   - name: Black Light
-    description: Puff puff - take a little break from the dance floor and go mingle with the smokey folks outside.
+    description: Also referred to as a UV-A light, Wood's light, or simply ultraviolet light.
     imageSlug: black-light
   - name: Alka Seltzer
-    description: Puff puff - take a little break from the dance floor and go mingle with the smokey folks outside.
+    description: Good morning. Dancing a little hard last night, were we? I’ve got just the thing. 
     imageSlug: alka-seltzer
                                                           
     
