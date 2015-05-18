@@ -124,31 +124,37 @@ patterns:
     description: Good morning. Dancing a little hard last night, were we? I’ve got just the thing. 
     imageSlug: alka-seltzer
   - name: Bottled Water
-    description:  
+    description: Make sure to drink plenty of these if you’re moving at 110% on the dance floor.
     imageSlug: water
   - name: Gold Chain
-    description:  
+    description: Chain game strong—think Mr. T, but disco. 
     imageSlug: gold-chain
   - name: Lipstick
-    description:  
+    description: Bisous bisous—some people like to lay this on thick before dancing the night away.
     imageSlug: lipstick
   - name: Canon Camera
-    description:  
+    description: Take a look at the photographs of your fabulous selves the next morning from the club resident photographer.
     imageSlug: canon-camera
   - name: Restroom
-    description:  
+    description: Ugh, huge line for the restroom. Looks like you’ll be in around 45 minutes if you’re lucky. At least you can still hear the music...
     imageSlug: water-closet
   - name: German Flag
-    description:  
+    description: Although Techno was created in Detroit, we know where the best is coming from these days.
     imageSlug: german-flag
   - name: Sangria
-    description:  
+    description: You, some tropical house music, and a glass of sangria.
     imageSlug: sangria
   - name: BPM
-    description:  
+    description: Keep those tracks rolling at 128 beats per minute and keep that crowd dancing steady.
     imageSlug: bpm
   - name: Cue Button
-    description:  
+    description: Tap tap tap tap, bring that next track into the mix nice and steady—no trainwrecks here.
     imageSlug: cue-button                                   
                                                           
+    
+    
+    
+    
+    
+    
     
