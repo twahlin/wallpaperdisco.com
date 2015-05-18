@@ -123,5 +123,32 @@ patterns:
   - name: Alka Seltzer
     description: Good morning. Dancing a little hard last night, were we? I’ve got just the thing. 
     imageSlug: alka-seltzer
+  - name: Bottled Water
+    description:  
+    imageSlug: water
+  - name: Gold Chain
+    description:  
+    imageSlug: gold-chain
+  - name: Lipstick
+    description:  
+    imageSlug: lipstick
+  - name: Canon Camera
+    description:  
+    imageSlug: canon-camera
+  - name: Restroom
+    description:  
+    imageSlug: water-closet
+  - name: German Flag
+    description:  
+    imageSlug: german-flag
+  - name: Sangria
+    description:  
+    imageSlug: sangria
+  - name: BPM
+    description:  
+    imageSlug: bpm
+  - name: Cue Button
+    description:  
+    imageSlug: cue-button                                   
                                                           
     
