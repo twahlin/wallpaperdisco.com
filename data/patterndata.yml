@@ -55,7 +55,7 @@ patterns:
     description: This sub-genre of reggae is the perfect thing to chill with (not to be confused with dubstep).
     imageSlug: dub
   - name: Monome
-    description: 
+    description: A less complex, more versatile tool using flexibility not as a feature, but a foundation.
     imageSlug: monome
   - name: Platform Shoes
     description: Put on those platform shoes because we're going to the disco.

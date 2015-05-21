@@ -135,9 +135,9 @@ footer {
 
 .pattern-section {
   background-attachment: fixed;
-  background-position: center; 
-  height: 600px;
+  background-position: center;
   background-size: 175px 175px;
+  height: 600px;
   @include breakpoint(medium) {
     background-size: 350px 350px;
   }
