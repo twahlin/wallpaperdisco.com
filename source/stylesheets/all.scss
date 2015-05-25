@@ -134,18 +134,13 @@ footer {
 }
 
 .pattern-section {
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 175px 175px;
-  height: 600px;
-  @include breakpoint(medium) {
-    background-size: 350px 350px;
-  }
-}
-
-.pattern-section {
   position: relative;
-  padding: 20px 0;
+  padding: 300px 0;
+  height: 100px;
+  @include breakpoint(medium) {
+    padding: 20px 0;
+    height: 600px; 
+  }
   .pattern-info {
     background: transparentize( $clouds, .05);
     border: 1px  solid transparentize($midnight-blue, .9);

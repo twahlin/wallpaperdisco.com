@@ -1,7 +1,8 @@
 <style type="text/css">
-/*<% data.patterndata.patterns.each do |p| %>
+
+<% data.patterndata.patterns.each do |p| %>
   .<%= p['name'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')%>{
-		background-image: url(https://dl.dropboxusercontent.com/u/4489605/record.gif), url("images/pattern-tiles/<%= p['imageSlug'] %>-wallpaper-disco-tom-wahlin.png");
+		background-image: url("images/gifs/<%= p['imageSlug'] %>.gif"), url("images/pattern-tiles/<%= p['imageSlug'] %>-wallpaper-disco-tom-wahlin.png");
 		background-position: center;
 		background-repeat: no-repeat, repeat;
 		background-attachment: fixed;
@@ -10,46 +11,12 @@
 <% end %>
 
 @media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
+only screen and (                min-width: 768px) {
   <% data.patterndata.patterns.each do |p| %>
     .<%= p['name'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')%>{
-			background-image: url(https://dl.dropboxusercontent.com/u/4489605/record%402x.gif), url("images/pattern-tiles/<%= p['imageSlug'] %>-wallpaper-disco-tom-wahlin@2x.png");
-			background-position: center;
-			background-repeat: no-repeat, repeat;
-			background-attachment: fixed;
 			background-size: 200px 200px, 350px 350px;
     }
   <% end %>
-}*/
-</style>
-
-
-
-
-
-<style type="text/css">
-<% data.patterndata.patterns.each do |p| %>
-  .<%= p['name'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')%>{
-    background-image: url("images/pattern-tiles/<%= p['imageSlug'] %>-wallpaper-disco-tom-wahlin.png");
-  }
-<% end %>
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-  <% data.patterndata.patterns.each do |p| %>
-    .<%= p['name'].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')%>{
-      background-image: url("images/pattern-tiles/<%= p['imageSlug'] %>-wallpaper-disco-tom-wahlin@2x.png");
-    }
-  <% end %>
 }
+
 </style>
