@@ -147,14 +147,33 @@ patterns:
   - name: BPM
     description: Keep those tracks rolling at 128 beats per minute and keep that crowd dancing steady.
     imageSlug: bpm
-  - name: Cue Button
-    description: Tap tap tap tap, bring that next track into the mix nice and steady—no trainwrecks here.
-    imageSlug: cue-button                                   
-                                                          
-    
-    
-    
-    
-    
-    
-    
+  - name: Roller Skates
+    description: Hey there fancy feet—I like the dance moves you’re busting out with those things on.
+    imageSlug: roller-skates
+  - name: Strobe Light
+    description: Don’t underestimate this little guy due to it’s cuteness—legend has it, if you stare directly at one of these, you’ll immediately go blind.
+    imageSlug: strobe-light
+  - name: Exit Sign
+    description: Hey this song is actually pretty good OH MY GOD THE CLUB IS ON FIRE GET THE HELL OUT OF HERE!
+    imageSlug: exit-sign
+  - name: Punch Bowl
+    description: Trying to get up the nerve to go speak to that cutie across the dance floor? Here, have some “punch” (we spiked it).
+    imageSlug: punch-bowl
+  - name: Dance Floor
+    description: Not talking DDR—100% light up dance floor, all tiles blinking to the beat.
+    imageSlug: dance-floor
+  - name: Deep Sea Selections
+    description: Smooth deep house created in the depths of the ocean. Visit my soundcloud page to listen to the mix - soundcloud.com/twahlin
+    imageSlug: deep-sea-selections
+  - name: Party Popper
+    description: It’s not a dance party without some quality confetti, right? It’s ok to start small with one of these poppers, but eventually hope for a pile falling out of a contraption on the ceiling.
+    imageSlug: party-popper
+  - name: Champagne
+    description: Models & bottles—all the fancy people grab a table while scoping out the dance floor for attractive people.
+    imageSlug: champagne
+  - name: Peace Sign
+    description: Yo man, can’t we all just get along & dance? Peace.
+    imageSlug: peace-sign
+  - name: Foam Machine
+    description: “This, is not, Miami. This, is, Ibiza.” Yep, must be Ibiza with the copious amounts of foam.
+    imageSlug: foam-machine    

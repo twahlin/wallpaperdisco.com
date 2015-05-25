@@ -1,0 +1,6 @@
+[Mon May 25 2015 06:04:46 GMT-0500 (CDT)] Layer "cue-button-wallpaper-disco-tom-wahlin-android.png": Duplicate path: cue-button-wallpaper-disco-tom-wahlin-android.png
+[Mon May 25 2015 06:04:46 GMT-0500 (CDT)] Layer "cue-button-wallpaper-disco-tom-wahlin-pinterest.png": Duplicate path: cue-button-wallpaper-disco-tom-wahlin-pinterest.png
+[Mon May 25 2015 06:04:46 GMT-0500 (CDT)] Layer "50% cue-button-wallpaper-disco-tom-wahlin-instagram.png": Duplicate path: cue-button-wallpaper-disco-tom-wahlin-instagram.png
+[Mon May 25 2015 06:04:46 GMT-0500 (CDT)] Layer "50% cue-button-wallpaper-disco-tom-wahlin-dribbble.png": Duplicate path: cue-button-wallpaper-disco-tom-wahlin-dribbble.png
+[Mon May 25 2015 06:04:46 GMT-0500 (CDT)] Layer "cue-button-wallpaper-disco-tom-wahlin-iPhone-6-and-6-plus.png": Duplicate path: cue-button-wallpaper-disco-tom-wahlin-iPhone-6-and-6-plus.png
+[Mon May 25 2015 06:04:46 GMT-0500 (CDT)] Layer "cue-button-wallpaper-disco-tom-wahlin-macbook-pro-15-retina.png": Duplicate path: cue-button-wallpaper-disco-tom-wahlin-macbook-pro-15-retina.png
