@@ -174,6 +174,6 @@ patterns:
   - name: Peace Sign
     description: Yo man, can’t we all just get along & dance? Peace.
     imageSlug: peace-sign
-  - name: Foam Machine
-    description: “This, is not, Miami. This, is, Ibiza.” Yep, must be Ibiza with the copious amounts of foam.
-    imageSlug: foam-machine    
+  - name: Coffee
+    description: It’s been a long night of dancing and you need some fuel. Head to the nearest diner and grab a cup of joe and a few pancakes for a good old fashioned recharge. Make sure to use your favorite mug—mine’s Product Hunt branded.
+    imageSlug: product-hunt-coffee   
