@@ -3,36 +3,46 @@ patterns:
   - name: Wax
     description: Nothing beats the superior sound of vinyl (as long as there’s a sound system to support it).
     imageSlug: wax
+    iphoneCase: http://society6.com/product/vinyl-nqt_iphone-case#9=375&52=377
   - name: Pioneer CDJ
     description: The club standard. If you’ve played out or been up close to the booth, chances are you’ve seen one of these in action.
     imageSlug: cdj
   - name: Disco Ball
     description: The disco ball is the reason we all show up in the first place, right? Reach up and touch it for good luck.
     imageSlug: disco-ball
+    iphoneCase: http://society6.com/product/disco-ball-6x3_iphone-case#9=375&52=377
   - name: Beer
     description: Another beer? Why not. The lighter the better—keep those feet moving on the dance floor.
     imageSlug: beer
+    iphoneCase: http://society6.com/product/beer-5ct_iphone-case#9=375&52=377
   - name: House Music
     description: Not everyone understands house music. It's a spiritual thing, a body thing, a soul thing.
     imageSlug: house-music
+    iphoneCase: http://society6.com/product/house-music-6fi_iphone-case#9=375&52=377
   - name: Technics MK2
     description: Hope you’re headed out to listen to some of that sweet sweet vinyl pumping from a pair of Technics tonight.
     imageSlug: technics-mk2-vinyl
+    iphoneCase: http://society6.com/product/record-player-kge_iphone-case#9=375&52=377
   - name: Techno
     description: Thank you for inventing this, Detroit (Derrick May, Jaun Atkins & Kevin Saunderson).
     imageSlug: techno
+    iphoneCase: http://society6.com/product/techno-x9u_iphone-case#9=375&52=377
   - name: EQ Knob
     description: Grab hold and crank one of these suckers—just enough to keep the sound out of the red.
     imageSlug: eq-knob
+    iphoneCase: http://society6.com/product/eq-knob_iphone-case#9=375&52=377
   - name: Afro Pick
     description: Pick comb to the rescue—keep that 'fro out of your face when you’re busting a groove. 
     imageSlug: afro-pick-comb
+    iphoneCase: http://society6.com/product/afro-pick-j8o_iphone-case#9=375&52=377
   - name: Fader
     description: It’s all about the blend & levels.
     imageSlug: mixing-fader
+    iphoneCase: http://society6.com/product/fader-zf6_iphone-case#9=375&52=377
   - name: Stunna Shades
     description: BRO CAN YOU NOT. The guy in stunna shades (in a dark nightclub) continues to pump his fist into everyone’s groove zone. He takes small breaks only to swig his vodka redbull while recording the experience on his phone (in portrait orientation).
     imageSlug: stunna-shades
+    iphoneCase: http://society6.com/product/stunna-shades-32k_iphone-case#9=375&52=377
   - name: Funktion-One
     description: One of the greatest sound systems out there. If you’ve been to Output in Brooklyn, you’ve heard how one of these sounds. 
     imageSlug: speaker-funktion-one   
@@ -42,12 +52,14 @@ patterns:
   - name: Tequila Shot
     description: 1 Salt your hand. 2 Lick it off. 3 Down the shot. 4 Suck a lime slice. 5 Back on the dance floor in one minute flat.
     imageSlug: tequila-shot
+    iphoneCase: http://society6.com/product/tequila-shot_iphone-case#9=375&52=377
   - name: Waveforms
     description: I’m not talking about surfing. These little guys travel through the air to your ears and make you wanna dance.
     imageSlug: waveform
   - name: Acid House
     description: When the sound drips down. Minimalist production aesthetic combined house music's ubiquitous programmed 4/4 beat with the electronic ‘squelch' sound produced by the Roland TB-303.
     imageSlug: acid-house
+    iphoneCase: http://society6.com/product/acid-house_iphone-case#9=375&52=377
   - name: Ableton Push
     description: This thing can produce just about any sound out there. From drums to synths - you can probably create it with a Push.
     imageSlug: ableton-push
@@ -63,6 +75,7 @@ patterns:
   - name: Headphones
     description: Just grab one phone—that’ll be enough to beat-match and bring the next track into the mix.
     imageSlug: headphones
+    iphoneCase: http://society6.com/product/headphones-7u5_iphone-case#9=375&52=377
   - name: XLR Cable
     description: You'll be hosting a silent disco if you forget these.
     imageSlug: xlr-cable    
@@ -111,6 +124,7 @@ patterns:
   - name: Stage
     description: Look at this little guy, playing music just for you.
     imageSlug: mini-dj
+    iphoneCase: http://society6.com/product/mini-dj_iphone-case#9=375&52=377
   - name: Cigarette
     description: Puff puff - take a little break from the dance floor and go mingle with the smokey folks outside.
     imageSlug: cigarette
