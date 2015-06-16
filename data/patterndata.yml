@@ -193,4 +193,34 @@ patterns:
     imageSlug: product-hunt-coffee  
   - name: Synthesizer
     description: An electronic musical instrument that generates electric signals converted to sound through loudspeakers or headphones.
-    imageSlug: synthesizer     
+    imageSlug: synthesizer
+  - name: Watch
+    description: What are you on a curfew or something? Quit checking that thing so much - 2AM is when the best tunes begin.
+    imageSlug: watch
+  - name: Setlist Planning
+    description: The Bunker NY crew brings some of the best tunes to Brooklyn, including Tin Man, Mike Servito, Eric Cloutier, Bryan Kasenic, and Derek Plaslaiko
+    imageSlug: setlist
+  - name: Siren
+    description: The club is over the max occupancy limit. Busted. 
+    imageSlug: siren
+  - name: Red Bull
+    description: Let’s go dance over there. Wait, over there. Wait, let’s go outside. Hey, are you my friend? I like turtles. Are twinkies healthy? Awww now I’m sleepy. 
+    imageSlug: red-bull
+  - name: Hot Dog
+    description: It’s 4AM. You’re tired. Your willpower is low and that hot dog cart smells sooo amazing. Go ahead, take a bite - you’ve burned enough calories on the dance floor anyways.
+    imageSlug: hot-dog
+  - name: Receipt
+    description: Jerry, we’ve gotta talk about the credit card. How on earth did you manage to spend $4,710.00 on disco in one night?
+    imageSlug: receipt
+  - name: Crossfader
+    description: Blend those tracks together into the mix.
+    imageSlug: crossfader
+  - name: Foam Machine
+    description: As Sander Kleinenberg would say it - “This, is not, Miami. This, is, Ibiza.” Yep, must be Ibiza with the copious amounts of foam everywhere.
+    imageSlug: foam-machine
+  - name: Mixtape
+    description: I made this especially for you. Check out track 9 - it has our inside joke woven into the lyrics.
+    imageSlug: mixtape
+  - name: Thumb Drive
+    description: Ah - the modern DJ's record crate - saving space since and strained backs since 1999.
+    imageSlug: thumbdrive
