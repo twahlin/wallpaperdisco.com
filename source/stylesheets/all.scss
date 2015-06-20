@@ -139,7 +139,7 @@ footer {
   height: 100px;
   @include breakpoint(medium) {
     padding: 20px 0;
-    height: 600px; 
+    height: 570px; 
   }
   .pattern-info {
     background: transparentize( $clouds, .05);

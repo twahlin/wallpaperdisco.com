@@ -203,6 +203,9 @@ patterns:
   - name: Siren
     description: The club is over the max occupancy limit. Busted. 
     imageSlug: siren
+  - name: Sync Button
+    description: Aka, the easy button. It either enables lazy, or enables DJs to jam on other devices while the tracks stay synced up nice & smooth. 
+    imageSlug: sync-button
   - name: Red Bull
     description: Let’s go dance over there. Wait, over there. Wait, let’s go outside. Hey, are you my friend? I like turtles. Are twinkies healthy? Awww now I’m sleepy. 
     imageSlug: red-bull
@@ -214,7 +217,7 @@ patterns:
     imageSlug: receipt
   - name: Crossfader
     description: Blend those tracks together into the mix.
-    imageSlug: crossfader
+    imageSlug: fader
   - name: Foam Machine
     description: As Sander Kleinenberg would say it - “This, is not, Miami. This, is, Ibiza.” Yep, must be Ibiza with the copious amounts of foam everywhere.
     imageSlug: foam-machine
