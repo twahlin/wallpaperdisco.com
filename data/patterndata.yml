@@ -227,3 +227,30 @@ patterns:
   - name: Thumb Drive
     description: Ah - the modern DJ's record crate - saving space since and strained backs since 1999.
     imageSlug: thumbdrive
+  - name: Ticket
+    description: Wait, you bought an advanced ticket, right? This dance party is sold out!
+    imageSlug: ticket
+  - name: Forty
+    description: Glug glug glug - the good thing about having one of these big boys is that you don’t have to walk up to the bar for another drink too often.
+    imageSlug: forty-ounce
+  - name: Lighter
+    description: Light me up, Johnny.
+    imageSlug: lighter
+  - name: Forty Five Record
+    description: The 7-inch 45 rpm record was introduced in 1949 by RCA as a smaller, more durable and higher-fidelity replacement for the 78 rpm shellac discs.
+    imageSlug: forty-five-record
+  - name: Record Crate
+    description: Put in that effort! The only way you’re going to find those gem records is by digging through these crates.
+    imageSlug: record-crate
+  - name: Masquerade Mask
+    description: Who are you, mysterious person behind the mask?
+    imageSlug: masquerade-mask
+  - name: Big Ass Fan
+    description: Overheated dancers working it on the floor? Wheel one of these big buddies in and cool everyone off.
+    imageSlug: big-ass-fan
+  - name: Fast Forward
+    description: Use this lil button to skip over the song intro straight to the chorus and get those groovers moving from 0-60 in a matter of seconds.
+    imageSlug: fast-forward
+  - name: Reel to reel
+    description: The form of magnetic tape audio recording in which the recording medium is held on a reel, rather than being securely contained within a cassette.
+    imageSlug: reel-to-reel
