@@ -254,3 +254,6 @@ patterns:
   - name: Reel to reel
     description: The form of magnetic tape audio recording in which the recording medium is held on a reel, rather than being securely contained within a cassette.
     imageSlug: reel-to-reel
+  - name: Love Wins Lapel Pin
+    description: This lil pin will catch some light from the disco ball & reflect it back onto the dance floor.
+    imageSlug: love-wins    
