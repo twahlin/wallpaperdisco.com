@@ -161,6 +161,9 @@ patterns:
   - name: BPM
     description: Keep those tracks rolling at 128 beats per minute and keep that crowd dancing steady.
     imageSlug: bpm
+  - name: Cue Button
+    description: Tap tap tap tap, bring that next track into the mix nice and steady.
+    imageSlug: cue-button
   - name: Roller Skates
     description: Hey there fancy feet—I like the dance moves you’re busting out with those things on.
     imageSlug: roller-skates
@@ -257,3 +260,57 @@ patterns:
   - name: Love Wins Lapel Pin
     description: This lil pin will catch some light from the disco ball & reflect it back onto the dance floor.
     imageSlug: love-wins    
+  - name: Eight Track
+    description: Two times the thickness means two times the sound, right?
+    imageSlug: eight-track
+  - name: Boom Box
+    description: Can’t get to the club? Just pull one of these bad boys out and get those feet movin'
+    imageSlug: boom-box
+  - name: Fake ID
+    description: Who are you trying to fool? Discotown USA doesn’t even exist. Go directly to jail. Do not pass go. Do not collect $200.
+    imageSlug: fake-id
+  - name: Pong
+    description: WOW, LOOK AT THESE GRAPHICS! What are all those nerdy kids doing huddled around that contraption in the back of this groovy club?
+    imageSlug: pong
+  - name: Flight Box
+    description: How do you think I’m going to fit four turntables, one rotary mixer, and 87 records into this little guy?
+    imageSlug: flight-box
+  - name: Moon
+    description: Goodnight moon. Goodnight mush. Good morning disco dancers going out into the evening moonlight.
+    imageSlug: moon
+  - name: RCA Cables
+    description: Red and white for the left and right, yellow for the video jockey kicking it low-tech at a house party.
+    imageSlug: rca-cables
+  - name: Groovy Vest
+    description: One of the grooviest, most patriotic vests money can buy. Dance style points will instantly increase tenfold if you’re wearing this.
+    imageSlug: groovy-vest
+  - name: Channel Mixer
+    description: Route that sound around. Cheers to all the audio technicians keeping the show on the road behind the scenes.
+    imageSlug: channel-mixer
+  - name: Party Boat
+    description: Don’t be fooled by this lil guy - the sound coming out of this party boat is like no other.
+    imageSlug: party-boat
+  - name: Jukebox
+    description: Playing the latest groovy hit near you - just pop a couple quarters in for some smooth jams.
+    imageSlug: jukebox
+  - name: Hula Hoop
+    description: Time for a little hoop, twirl, throw, and roll.
+    imageSlug: hula-hoop
+  - name: Cowbell
+    description: Everyone knows we need more of it.
+    imageSlug: cowbell
+  - name: Rewind
+    description: Whoa whoa whoa, did you just hear that? Flip the track back about 12 seconds - that was amazing.
+    imageSlug: rewind
+  - name: Laptop
+    description: Every modern DJ’s best friend. It’s amazing what you can do with one device.
+    imageSlug: laptop
+  - name: Candy
+    description: Grab a few pieces from the candy bowl next to the restrooms - be sure to tip the restroom attendant.
+    imageSlug: candy
+  - name: Wrist Stamp
+    description: Here's your key to move about the dance club freely.
+    imageSlug: wrist-stamp
+  - name: Neon Disco Sign
+    description: Thanks for grooving with me! Let’s cap it off with this groovy retro disco sign.
+    imageSlug: disco
